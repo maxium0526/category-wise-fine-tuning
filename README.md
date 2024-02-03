@@ -13,7 +13,7 @@ This code demonstrates using CFT_BP_ASL and CFT_GA to fine-tune models trained w
            |----train2014  
            |----val2014  
            |----annotations
-
+3. Run `pip install -r requirements.py` to install the necessary packages.
 3. Config the dataset location in `config.py`.
 4. Config the known label proportion in `config.py`.
 5. Run `python train.py`. This will train a classification model with AN and save the trained model in `output/train/best.pth`.
