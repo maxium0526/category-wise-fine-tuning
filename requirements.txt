@@ -1,0 +1,9 @@
+numpy==1.23.5
+pandas==1.5.2
+Pillow==9.3.0
+pycocotools==2.0.6
+torch==1.13.1
+torchmetrics==0.11.0
+torchvision==0.14.1
+tqdm==4.64.1
+xmltodict==0.13.0
