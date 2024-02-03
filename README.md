@@ -20,3 +20,10 @@ This code demonstrates using CFT_BP_ASL and CFT_GA to fine-tune models trained w
 6. Run `CFT_prepare.py`. This will generate and store (feature vector z, label y) pairs of the dataset to `output/CFT/cache` for preparation of CFT. This generation can dramatically speed up CFT.
 7. Run `CFT_optimize.py`. This will respectively use CFT_BP_ASL and CFT_GA to fine-tune the train model. The parameters of the fine-tuned classification layer will be saved in `output/CFT`.
 8. Run `validate.py` to see the classification performances of the trained model, the trained model after CFT_BP_ASL, and the trained model after CFT_GA. The result is saved in `output/valid/logs`.
+
+## Acknowledgment
+
+Part of the codes in this repository are from:
+
+- [Alibaba-MIIL/ASL](https://github.com/Alibaba-MIIL/ASL)
+- [Alibaba-MIIL/PartialLabelingCSL](https://github.com/Alibaba-MIIL/PartialLabelingCSL)
