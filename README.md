@@ -21,6 +21,10 @@ This code demonstrates using CFT_BP_ASL and CFT_GA to fine-tune models trained w
 7. Run `CFT_optimize.py`. This will respectively use CFT_BP_ASL and CFT_GA to fine-tune the train model. The parameters of the fine-tuned classification layer will be saved in `output/CFT`.
 8. Run `validate.py` to see the classification performances of the trained model, the trained model after CFT_BP_ASL, and the trained model after CFT_GA. The result is saved in `output/valid/logs`.
 
+## CheXpert Competition Single Model
+
+See this repo: [maxium0526/cft-chexpert](https://github.com/maxium0526/cft-chexpert).
+
 ## Acknowledgment
 
 Part of the codes in this repository are from:
